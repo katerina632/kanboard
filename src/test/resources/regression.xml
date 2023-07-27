@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UI Tests" parallel="methods" thread-count="5">
+    <test name="Regression Testing">
+        <packages>
+            <package name="ui.tests.login"/>
+            <package name="ui.tests.project"/>
+            <package name="ui.tests.task"/>
+        </packages>
+    </test>
+</suite>
